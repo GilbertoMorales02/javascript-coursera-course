@@ -67,3 +67,34 @@ console.log(num2>10 || num1<9);
 console.log(!(num1> 5 || num2 > 10));
 console.log(!( 10 > 5 || 8 < 99));
 console.log(!(num2>10 || num1<9));
+
+
+//El operador de módulo: % 
+console.log(10%2);
+console.log((10%2)==0);
+console.log(22 % 5);
+
+//El operador de igualdad estricta: ===
+console.log(10===100);
+console.log(10==="10");
+console.log(10===10);
+
+//El operador de asignación de suma: +=
+var num3 = 1;
+num3 += 3;
+console.log(num3);
+
+var overtime = 1;
+overtime += 2;
+overtime += 1;
+overtime += 2;
+overtime += 3;
+console.log(overtime); // 9
+
+var longString = "";
+longString += "Once";
+longString += " upon";
+longString += " a";
+longString += " time";
+longString += "...";
+console.log(longString); // "Once upon a time..."
