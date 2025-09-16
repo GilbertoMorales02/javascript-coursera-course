@@ -1,11 +1,9 @@
-function letterFinder (word,match){
-    for ( var i = 0; i < word.length; i++){
-        if ( word[i] == match) {
-            console.log('Found the', match, 'at', i);
-        } else {
-            console.log('---No match found at',i);
-        }
-    }
+var arrOfKeys = ['speed', 'altitude', 'color'];
+var drone = {
+    speed: 100,
+    altitude: 200,
+    color: "red"
 }
-
-letterFinder("test","t");
+for (var i = 0; i < arrOfKeys.length; i++) {
+    console.log(drone[arrOfKeys[i]])
+}
